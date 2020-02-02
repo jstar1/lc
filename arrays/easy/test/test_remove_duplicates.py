@@ -27,3 +27,8 @@ class TestRemoveDuplicates(unittest.TestCase):
     def test_case_three(self):
         # test case from leetcode
         self.assertEqual(self.solution.remove_dupes([0,0,1,1,1,2,2,3,3,4]), 5)
+
+
+if __name__ == '__main__':
+    unittest.main()
+    
