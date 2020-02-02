@@ -2,7 +2,6 @@
 
 class Solution(object):
     def two_sum(self, nums, target):
-        print(nums)
         if len(nums) <= 1:
             return False
         rev_table = {}
